@@ -18,10 +18,8 @@ end
 
 def times_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  count = 1 
-  While count <= number_of_times
-  puts phrase
-  count += 1 
+  number_of_times.times do 
+    puts phrase  
 end
 end 
 
